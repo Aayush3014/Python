@@ -32,8 +32,8 @@ scissors = '''
 '''
 
 game_images = [rock, paper, scissors]
-ans = "y"
-while ans == "y":
+ans = "yes"
+while ans == "yes":
     user_choice = int(input("What you choose? Type 0 for rock, 1 for paper or 3 for Scissors.: \n"))
     print(game_images[user_choice])
 
@@ -53,4 +53,4 @@ while ans == "y":
         print("You Win!")
     elif computer_choice == user_choice:
         print("It is a draw try agian ") 
-    ans = input("Wanna try once more ?  (y/n)")
+    ans = input("Wanna try once more ?  (yes/no)")
